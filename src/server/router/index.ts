@@ -2,7 +2,7 @@ import { router } from "../trpc";
 import { groceryRouter } from "./grocery";
 
 export const appRouter = router({
-	...groceryRouter,
+  ...groceryRouter,
 });
 
 export type ServerRouter = typeof appRouter;
