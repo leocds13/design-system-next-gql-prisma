@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import { useCallback, useState } from "react";
-import { trpc } from "@/utils/trpc";
+import { trpc } from "@/libs/trpc";
 
 import {
   Card,
